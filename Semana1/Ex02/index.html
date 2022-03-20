@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* . é class # é id */
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        #content{
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .content_bloco{
+            padding: 15px 10px 10px 10px;
+        }
+
+        .moldura{
+            width: 200px;
+            height: 250px;
+            border: 4px ;
+            border-radius: 15px;
+            box-shadow: 2px 2px 4px rgb(134, 134, 134);
+        }
+        
+        .img_bloco{
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        .titulo{
+            font-size: 18px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 5%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <div class="content_bloco">
+            <div class="moldura">
+                <img class="img_bloco" src="video_chamada.png" alt="">
+                <p class="titulo">Video Chamada</p>
+            </div>
+        </div>
+        <div class="content_bloco">
+            <div class="moldura">
+                <img class="img_bloco" src="../Ex01/doctor.jpg" alt="">
+                <p class="titulo">Doctor</p>
+            </div>
+        </div>
+        <div class="content_bloco">
+            <div class="moldura">
+                <img class="img_bloco" src="https://i.pinimg.com/564x/95/80/b2/9580b26bbc78dcd8796734774c91d74c.jpg" alt="">
+                <p class="titulo">Neuromarketing</p>
+            </div>
+        </div>
+        .
+    </div>
+</body>
+</html>

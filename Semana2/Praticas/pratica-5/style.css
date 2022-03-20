@@ -1,0 +1,90 @@
+body{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+    line-height: 1.6; /*altera a altura das linhas com 160% da altura das fontes*/
+    font-size: 18px;
+}
+
+.container{
+    margin: 0 auto; /*centraliza a classe*/
+    width: 960px;
+}
+
+article{
+    background-color: #FFF;
+    border-color: #999;
+    border: 1px solid #CCC;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px #999;
+    float: left;
+    width: 660px;
+}
+
+article h2{
+border-bottom: 1px solid #CCC;
+    margin: 0;
+}
+
+article img{
+    border: 1px solid #CCC;
+    float: left;
+    margin: 10px 10px 0 0;
+    width: 250px;
+    height: 250px;
+}
+
+article a{
+    color: #2C88A7;
+    font-weight: bold;
+}
+
+h1 a{
+    color: #2C88A7;
+    text-decoration: none;
+}
+
+h1 a:hover{
+    background-color: rgb(121, 209, 194);
+    color: #FFF;
+}
+
+/*aside*/
+
+aside{
+    background-color: #CCC;
+    border: 1px solid #C9BC8F;
+    padding: 10px;
+    float: right;
+    width: 260px;
+}
+
+aside h3{
+    font-size: 14px;
+    margin-top: 0;
+}
+
+aside ol{
+    font-size: 12px;
+}
+
+section{
+    border: 1px solid #000;
+    height: 100px;
+    margin: 40px auto;
+    width: 400px;
+}
+
+/*footer*/
+
+.clear{
+    clear: both; /* garante que os elementos ficaram ao lado*/
+}
+
+footer{
+    font-size: 12px;
+    text-align: center;
+    background-color: #CCC;
+    width: 100%;
+    height: 50px;
+}

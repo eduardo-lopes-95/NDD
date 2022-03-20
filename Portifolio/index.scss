@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+$cor_fundo: #272727;
+$cor_nav_a: #f6f4e6;
+$cor_nav_a_hover: #fddb3a;
+$cor_paragrafo: $cor_nav_a;
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $cor_fundo;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.navMenu{
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.navMenu a {
+    color: $cor_nav_a;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;    
+}
+
+.navMenu a:hover{
+    color: $cor_nav_a_hover;
+}
+
+.paragrafo{
+    color: $cor_paragrafo;
+}

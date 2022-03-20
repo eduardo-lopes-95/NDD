@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700&display=swap');
+$colorBody: rgb(39, 39, 39);
+$colorParagrafo: white;
+$colorNavbar: #b2dfdb;
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: $colorBody;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px $colorParagrafo;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: $colorParagrafo;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar a:hover {
+    color: $colorNavbar;
+}
+
+.content{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#inputBusca{
+    background-color: $colorParagrafo;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+
+.textoBranco{
+    color: $colorParagrafo;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* . é class # é id */
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        #content{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .content_bloco{
+            padding: 15px 10px 10px 10px;
+        }
+        
+        .moldura{
+            width: 30vh;
+            height: 30vh;
+            border: 4px;
+            border-radius: 15px;
+            box-shadow: 2px 2px 4px rgb(134, 134, 134);
+        }
+        
+        .img_bloco{
+            width: 20vh;
+            height: 20vh;
+            border-radius: 10px;
+        }
+        
+        .video{
+            width: 20vh;
+            height: 20vh;    
+        }
+        
+        .titulo{
+            font-size: 18px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 5%;
+        }
+
+        .descricao{
+            font-size: 18px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 5%;
+        }
+
+        .menu{
+            width: 100%;
+            height: 10vh;
+            background-color: rgb(231, 231, 231);
+            display: flex;
+            justify-content: center;
+            top: 0;
+            z-index: 100;
+        }
+
+        .menu ul{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            list-style: none;
+        }
+
+        menu li{
+            padding: 20px;
+            margin-left: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        a{
+            color: inherit;
+            text-decoration: none;
+            font-size: 20px;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <!-- <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contatos</a></li> -->
+        </ul>
+    </nav>
+    <div id="content">
+        <div class="content_bloco">
+            <div class="moldura">
+                <img class="img_bloco" src="video_chamada.png" alt="">
+                <p class="titulo">Video Chamada</p>
+            </div>
+        </div>
+        <div class="content_bloco">
+            <div class="moldura">
+                <img class="img_bloco" src="../Ex01/doctor.jpg" alt="">
+                <p class="titulo">Doctor</p>
+            </div>
+        </div>
+        <div class="content_bloco">
+            <div class="moldura">
+                <img class="img_bloco" src="https://i.pinimg.com/564x/95/80/b2/9580b26bbc78dcd8796734774c91d74c.jpg" alt="">
+                <p class="titulo">Neuromarketing</p>
+            </div>
+        </div>
+        
+        <div class="content_bloco">
+            <div class="moldura">
+                <p class="titulo">Neuromarketing</p>
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/SIQT8dYZ7cA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="descricao">Vamos falar sobre Neuromarketing</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
