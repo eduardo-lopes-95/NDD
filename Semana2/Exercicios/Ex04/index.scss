@@ -1,0 +1,76 @@
+$corBackground: #21262d;
+$corFonte: #f0f6fc;
+$corDia: #58a6ff;
+
+$fonteTitulo: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$fonteDescricao: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$fonteDiaMes: Verdana, Geneva, Tahoma, sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: $corBackground;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    background-color: #52687e;
+    margin: 1.2vh;
+    border-radius: 5px;
+}
+
+.gpDiaMes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+}
+
+.gpTituloDescricao{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    align-items: center;
+    border-radius: 2px;
+    box-shadow: 0 0 0.2em rgb(134, 134, 134);
+}
+
+.dia{
+    font-size: 2rem;
+    color: $corDia;
+    font-family: $fonteDiaMes;
+}
+
+.mes{
+    color: $corFonte;
+    font-family: $fonteDiaMes;
+}
+
+img{
+    border-radius: 2px;
+    width: 100%;
+    height: 40vh;
+}
+
+.titulo{
+    font-family: $fonteTitulo;
+    margin-bottom: 1.5vh;
+    margin-top: 1.5vh;
+}
+
+.descricao{
+    font-family: $fonteTitulo;
+    margin-bottom: 1vh;
+    margin-left: 1vh;
+}
