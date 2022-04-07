@@ -1,0 +1,26 @@
+.text-example { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center; 
+    margin: 10% 0; 
+    min-height: 200px; 
+}
+
+.text-example-item{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 50vh;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.237);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.text-example h1, h2{
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
